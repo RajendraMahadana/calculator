@@ -1,0 +1,77 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #021526;
+            margin: 0;
+        }
+        .calculator {
+            width: 860px; 
+            border: none;
+            padding: 20px;
+            background-color: #002655   ;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .calculator input[type="text"] {
+            width: calc(100% - 22px); 
+            padding: 15px;
+            margin-bottom: 15px;
+            font-size: 24px;
+            text-align: right;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .calculator input[type="button"] {
+            width: 22%;
+            padding: 10px;
+            margin: 1%;
+            font-size: 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+        .calculator input[type="button"].operator {
+            background-color: #EB5B00;
+            color: #fff;
+        }
+        .calculator input[type="button"].equals {
+            background-color: #12f219;
+            color: #fff;
+        }
+        .calculator input[type="button"].clear {
+            background-color: #C40C0C;
+            color: #fff;
+        }
+        .calculator input[type="button"]:hover {
+            opacity: 0.9;
+        }
+
+        .equals {
+            width: 22%;
+            padding: 10px;
+            margin: 1%;
+            font-size: 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #06D001;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        .result, .input {
+            background-color: #002655;
+            color: #fff;
+        }
+
+        .input-return {
+            border-bottom:1px solid #fff;
+            margin-bottom: 1rem;
+        }
+    
